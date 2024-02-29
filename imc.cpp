@@ -10,7 +10,7 @@ char* imc(float mass, float height); // function that calcules the imc
 int main(int argc, char* argv[]) {
     
     if (argc != 3) {
-        cout << "Sorry, invalid input! USAGE number number." << endl;
+        cout << "Sorry, invalid input! USAGE .\'imc.exe' number number." << endl;
         return 1;
     }
 
