@@ -10,7 +10,7 @@ int is_leapyear(int year); // function that informs if the year is a leap year o
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        cout << "Sorry, invalid input! USAGE ano.exe number." << endl;
+        cout << "Sorry, invalid input! USAGE .\'ano.exe' number." << endl;
         return 1;
     }
 
